@@ -6,8 +6,13 @@ medicial_response
 ├── spine/
 │   ├── .env
 │   └── requirements.txt              # pip install -r config/requirements.txt        
-├── Fieldkit/                         # 전체 과정 관리: 현장 환자별 정상범위 설정 -> 환자 상태 판단 정보 입력 -> 정상범위 설정 / 프로토콜 문서, 데이터 확인 -> AI가 답변으로 결과 반환
-│   └── app.py                        # 4가지 작업: GCS 점수 입력 + SPO2 수치 입력 + OPQRST 및 SAMPLE 정보 입력 / 입력된 정보 베이스로 대응 절차 생성
+├── Fieldkit/                         
+
+# 전체 과정 관리: 현장 환자별 정상범위 설정 -> 환자 상태 판단 정보 입력 -> 정상범위 설정 / 프로토콜 문서, 데이터 확인 -> AI가 답변으로 결과 반환
+
+│   └── app.py                       
+# 4가지 작업: GCS 점수 입력 + SPO2 수치 입력 + OPQRST 및 SAMPLE 정보 입력 / 입력된 정보 베이스로 대응 절차 생성
+
 ├── record/
 │   ├── feedback.py                   # 실시간 출력 관련 피드백 수집
 │   └── prompt.md
