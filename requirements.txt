@@ -18,9 +18,11 @@ pip==24.1.2
 PyMuPDF==1.24.7
 python-dotenv==1.0.1
 sentence-transformers==2.3.1
-streamlit==1.31.0
+streamlit==1.32.0
 uvloop==0.19.0
 watchfiles==0.21.0
 websockets==12.0
-tokenizers==0.19.3
+tokenizers==0.19.1
 transformers==4.53.2
+redis
+rich==14.0.0
