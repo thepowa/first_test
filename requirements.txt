@@ -7,9 +7,9 @@ faiss-cpu==1.7.4
 hf_transfer==0.1.5
 httptools==0.6.1
 ipykernel==6.29.5
-langchain-chroma<0.3,>=0.1.40
-langchain-community<0.3.0,>=0.2.12
-langchain-core<0.4.0,>=0.3.29
+langchain-chroma
+langchain-community
+langchain-core
 llama_cpp_python==0.2.40
 llava==0.0.1.dev0
 loguru==0.7.2
@@ -23,6 +23,6 @@ uvloop==0.19.0
 watchfiles==0.21.0
 websockets==12.0
 tokenizers==0.19.1
-transformers==4.53.2
+transformers==4.30.0
 redis
-rich<14,>=10.14.0
+rich==14.0.0
